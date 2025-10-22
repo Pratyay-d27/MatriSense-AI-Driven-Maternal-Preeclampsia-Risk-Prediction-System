@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 # =============================
 @st.cache_resource
 def load_maternal_model():
-    dataset = pd.read_csv("Maternal_Health_Risk_Data_Set.csv")
+    dataset = pd.read_csv("Data/Maternal_Health_Risk_Data_Set.csv")
     X = dataset.iloc[:, :-1].values
     y = dataset.iloc[:, -1].values
     le = LabelEncoder()
@@ -40,7 +40,7 @@ def load_maternal_model():
 
 @st.cache_resource
 def load_preeclampsia_model():
-    df = pd.read_csv("dataframe.csv")
+    df = pd.read_csv("Data/dataframe.csv")
     df = df.drop(columns=["id"])
     X = df.drop(columns=["preeclampsia_onset"])
     y = df["preeclampsia_onset"]
