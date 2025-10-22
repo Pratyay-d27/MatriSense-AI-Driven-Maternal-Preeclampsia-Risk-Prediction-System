@@ -157,7 +157,7 @@ with st.container():
         # =============================
         # Preeclampsia Prediction Section
         # =============================
-        if risk_label in ["medium risk", "high risk"]:
+        if risk_label in ["mid risk", "high risk"]:
             st.markdown("<hr>", unsafe_allow_html=True)
             st.subheader("Preeclampsia Prediction: Since Risk is Not low")
             user_inputs = {}
