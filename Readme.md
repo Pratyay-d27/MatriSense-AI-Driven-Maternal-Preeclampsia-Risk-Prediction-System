@@ -34,7 +34,7 @@ Built with **Streamlit**, **Scikit-Learn**, and **TensorFlow**, the system also 
 | Frontend | Streamlit, HTML/CSS |
 | Backend | Python |
 | Machine Learning | Scikit-Learn, TensorFlow |
-| Explainability | LIME, SHAP |
+| Explainability | LIME |
 | Data Processing | Pandas, NumPy |
 | Visualization | Matplotlib |
 
