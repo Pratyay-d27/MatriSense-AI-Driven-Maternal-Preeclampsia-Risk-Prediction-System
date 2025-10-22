@@ -60,7 +60,7 @@ def load_preeclampsia_model():
     return ann, sc, X.columns, shap_explainer
 
 # =============================
-# 2. PREMIUM UI CSS
+# 2. UI
 # =============================
 st.markdown("""
 <style>

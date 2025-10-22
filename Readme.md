@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="assets/banner.png" alt="MatriSense Banner" width="100%">
-</p>
+
 
 <h1 align="center">🩺 MatriSense</h1>
 <h3 align="center">AI-Powered Maternal & Preeclampsia Risk Prediction System</h3>
@@ -54,15 +52,6 @@ Built with **Streamlit**, **Random Forest**, and **Neural Networks**, it provide
 - **Activation Functions:** ReLU, Sigmoid  
 - **Explainability:** SHAP Kernel Explainer  
 
----
-
-## 📷 Demo
-
-<p align="center">
-  <img src="assets/demo.gif" width="80%" alt="MatriSense Demo">
-</p>
-
----
 
 ## 🧭 How to Run Locally
 
