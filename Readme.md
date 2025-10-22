@@ -49,8 +49,7 @@ Built with **Streamlit**, **Scikit-Learn**, and **TensorFlow**, the system also 
 
 ### **Preeclampsia Prediction Model**
 - **Architecture:** 3-layer Artificial Neural Network (ANN)  
-- **Activation Functions:** ReLU, Sigmoid  
-- **Explainability:** SHAP Kernel Explainer  
+- **Activation Functions:** ReLU, Sigmoid    
 
 ---
 
@@ -59,7 +58,7 @@ Built with **Streamlit**, **Scikit-Learn**, and **TensorFlow**, the system also 
 1. **User Inputs:** Age, blood pressure, blood sugar, body temperature, and heart rate.  
 2. **Maternal Risk Evaluation:** Random Forest + LDA predicts **low, medium, or high risk**.  
 3. **Conditional Preeclampsia Prediction:** If risk is medium/high, ANN predicts likelihood of **preeclampsia**.  
-4. **Explainable Insights:** LIME explains maternal risk, SHAP explains preeclampsia prediction.  
+4. **Explainable Insights:** LIME explains maternal risk.  
 5. **Result Visualization:** Risk levels are displayed with color-coded progress bars and clear messages.
 
 ---
