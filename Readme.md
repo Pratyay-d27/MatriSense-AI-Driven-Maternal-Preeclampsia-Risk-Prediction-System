@@ -13,7 +13,7 @@ The domain of **maternal health** is an area less explored, which inspired the d
 
 **MatriSense** first evaluates **maternal health risks** using a **Random Forest model with LDA-based dimensionality reduction**. If the predicted risk is **medium or high**, the system automatically proceeds to predict **preeclampsia** using a **3-layer ANN**. This workflow ensures that early warning is provided only when necessary, optimizing attention for high-risk cases.
 
-Built with **Streamlit**, **Scikit-Learn**, and **TensorFlow**, the system also integrates **LIME** and **SHAP** for **explainable AI**, ensuring transparency and clinical trust.
+Built with **Streamlit**, **Scikit-Learn**, and **TensorFlow**, the system also integrates **LIME** for **explainable AI**, ensuring transparency and clinical trust.
 
 ---
 
