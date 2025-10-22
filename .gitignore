@@ -1,0 +1,18 @@
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore trained models
+*.h5
+*.pkl
+*.model
+models/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# VS Code workspace settings
+.vscode/
