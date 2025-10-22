@@ -1,5 +1,3 @@
-
-
 <h1 align="center">🩺 MatriSense</h1>
 <h3 align="center">AI-Powered Maternal & Preeclampsia Risk Prediction System</h3>
 
@@ -11,19 +9,21 @@
 
 ## 🚀 Overview
 
-**MatriSense** is an AI-driven diagnostic assistant designed to predict **maternal health risks** and assess the likelihood of **preeclampsia onset** using advanced machine learning models.
+The domain of **maternal health** is an area less explored, which inspired the development of **MatriSense** — an AI-powered early detection system aimed at predicting maternal health risks and identifying the likelihood of **preeclampsia onset**.  
 
-Built with **Streamlit**, **Random Forest**, and **Neural Networks**, it provides **interpretable predictions** using **LIME** and **SHAP**, ensuring **transparency and clinical trust**.
+**MatriSense** first evaluates **maternal health risks** using a **Random Forest model with LDA-based dimensionality reduction**. If the predicted risk is **medium or high**, the system automatically proceeds to predict **preeclampsia** using a **3-layer ANN**. This workflow ensures that early warning is provided only when necessary, optimizing attention for high-risk cases.
+
+Built with **Streamlit**, **Scikit-Learn**, and **TensorFlow**, the system also integrates **LIME** and **SHAP** for **explainable AI**, ensuring transparency and clinical trust.
 
 ---
 
 ## 🌟 Features
 
-- 🧠 **Dual AI Models** — Predicts both maternal risk and preeclampsia.
-- 🔍 **Explainable AI** — Uses **LIME** and **SHAP** for clear interpretability.
-- 💅 **Elegant Streamlit UI** — Gradient design with dynamic results visualization.
-- 📊 **Real-time Input Evaluation** — Instant predictions with visual progress bars.
-- 🛡️ **Clinically Focused** — Tailored for health analytics and research applications.
+- 🧠 **Dual AI Models** — Predicts both maternal health risk and preeclampsia.
+- 🔍 **Explainable AI** — Provides insights using **LIME** (for maternal risk) and **SHAP** (for preeclampsia).
+- 💅 **Elegant Streamlit UI** — Modern gradient design with interactive user inputs.
+- 📊 **Real-time Prediction** — Instant evaluation of user-provided features with visual progress bars.
+- 🛡️ **Clinically Focused** — Tailored for health analytics, research, and early intervention.
 
 ---
 
@@ -52,6 +52,17 @@ Built with **Streamlit**, **Random Forest**, and **Neural Networks**, it provide
 - **Activation Functions:** ReLU, Sigmoid  
 - **Explainability:** SHAP Kernel Explainer  
 
+---
+
+## 🧭 How it Works
+
+1. **User Inputs:** Age, blood pressure, blood sugar, body temperature, and heart rate.  
+2. **Maternal Risk Evaluation:** Random Forest + LDA predicts **low, medium, or high risk**.  
+3. **Conditional Preeclampsia Prediction:** If risk is medium/high, ANN predicts likelihood of **preeclampsia**.  
+4. **Explainable Insights:** LIME explains maternal risk, SHAP explains preeclampsia prediction.  
+5. **Result Visualization:** Risk levels are displayed with color-coded progress bars and clear messages.
+
+---
 
 ## 🧭 How to Run Locally
 
