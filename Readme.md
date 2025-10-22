@@ -20,7 +20,7 @@ Built with **Streamlit**, **Scikit-Learn**, and **TensorFlow**, the system also 
 ## 🌟 Features
 
 - 🧠 **Dual AI Models** — Predicts both maternal health risk and preeclampsia.
-- 🔍 **Explainable AI** — Provides insights using **LIME** (for maternal risk) and **SHAP** (for preeclampsia).
+- 🔍 **Explainable AI** — Provides insights using **LIME**.
 - 💅 **Elegant Streamlit UI** — Modern gradient design with interactive user inputs.
 - 📊 **Real-time Prediction** — Instant evaluation of user-provided features with visual progress bars.
 - 🛡️ **Clinically Focused** — Tailored for health analytics, research, and early intervention.
